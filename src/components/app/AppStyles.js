@@ -1,5 +1,4 @@
-import styled from 'styled-components';
-
+import styled from "styled-components";
 
 const AppStyles = styled.main`
   max-width: 1440px;
