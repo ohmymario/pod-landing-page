@@ -1,5 +1,5 @@
-import LogoStyles from "./LogoStyles";
 import logo from "../../assets/desktop/logo.svg";
+import LogoStyles from "./LogoStyles";
 
 const Logo = () => {
   return (
