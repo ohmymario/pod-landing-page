@@ -17,11 +17,12 @@ const AccessFormStyles = styled.form`
   button {
     border: none;
     border-radius: 40px;
-    font-weight: 700;
     font-size: 0.875rem;
   }
 
   input {
+    /* hard to match font weight 😡 */
+    font-weight: 400;
     color: var(--header);
     background-color: var(--form-bg);
     padding-left: 32px;
@@ -34,12 +35,12 @@ const AccessFormStyles = styled.form`
       color: var(--header);
       opacity: 0.5;
       letter-spacing: 0.25px;
-      vertical-align: sub;
     }
   }
 
   button {
     color: var(--bg);
+    font-weight: 700;
     background-color: var(--header-secondary);
     cursor: pointer;
     padding: 16px 27px;
