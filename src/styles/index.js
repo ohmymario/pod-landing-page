@@ -31,5 +31,10 @@ export const GlobalStyle = createGlobalStyle`
     background: var(--bg);
     font-family: 'Chivo', sans-serif;
   }
-}
+
+  h1, p {
+    margin: 0;
+  }
+
+
 `;
