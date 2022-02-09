@@ -5,9 +5,6 @@ import { normalize } from "styled-normalize";
 export const GlobalStyle = createGlobalStyle`
   ${normalize}
 
-  @import url('https://fonts.googleapis.com/css2?family=Chivo:wght@300;400;700&display=swap');
-  /* font-family: 'Chivo', sans-serif; */
-
   :root {
   --header: hsl(0, 0%, 100%);
   --header-secondary: hsl(157, 74%, 62%);
