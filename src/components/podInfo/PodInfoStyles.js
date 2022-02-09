@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 const PodInfoStyles = styled.main`
   background-color: var(--bg);
-  border: 1px solid red;
   max-width: 723px;
   padding-top: 88px;
   padding-right: 58px;
