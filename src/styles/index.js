@@ -5,6 +5,9 @@ import { normalize } from 'styled-normalize'
 export const GlobalStyle = createGlobalStyle`
   ${normalize}
 
+  @import url('https://fonts.googleapis.com/css2?family=Chivo:wght@300;400;700&display=swap');
+  /* font-family: 'Chivo', sans-serif; */
+
   :root {
   --white: hsl(0, 0%, 100%);
   --eucalyptus: hsl(157, 74%, 62%);
@@ -30,16 +33,8 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   body {
-    /* margin: 0; */
-    /* padding: 0; */
     background: var(--bg);
-    font-family: Open-Sans, Helvetica, Sans-Serif;
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* justify-content: center; */
-    /* align-items: center; */
-    /* height: 100vh; */
-
+    font-family: 'Chivo', sans-serif;
   }
 }
 `;
