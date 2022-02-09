@@ -6,6 +6,8 @@ const AccessFormStyles = styled.form`
   grid-template-rows: 3.5rem;
   max-width: 427px;
 
+  margin-bottom: 64px;
+
   @media only screen and (max-width: 600px) {
     grid-row-gap: 16px;
     width: 100%;
