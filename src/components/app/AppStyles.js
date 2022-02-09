@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const AppStyles = styled.main`
+const AppStyles = styled.div`
   max-width: 1440px;
   width: 100%;
   height: 100%;
