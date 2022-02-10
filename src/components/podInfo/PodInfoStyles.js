@@ -2,6 +2,8 @@ import styled from "styled-components";
 
 const PodInfoStyles = styled.main`
   background-color: var(--bg);
+  /* TEMP - BG MATCHES PAGE BG */
+  background-color: var(--paragraph);
   max-width: 723px;
   padding-top: 88px;
   padding-right: 58px;
