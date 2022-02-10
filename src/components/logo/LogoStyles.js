@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const LogoStyles = styled.header`
-  margin-bottom: 100px;
+  margin-bottom: 103px;
   img {
     display: block;
   }
