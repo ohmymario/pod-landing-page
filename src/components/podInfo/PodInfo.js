@@ -1,5 +1,6 @@
 import AccessForm from "../accessForm/AccessForm";
 import PodInfoStyles from "./PodInfoStyles";
+import Companies from "../companies/Companies";
 
 const PodInfo = () => {
   return (
@@ -12,7 +13,10 @@ const PodInfo = () => {
         podcast to Spotify, Apple Podcasts, Google Podcasts, Pocket Casts and
         more!
       </p>
-      <AccessForm />
+      <div className="form-comp">
+        <AccessForm />
+        <Companies />
+      </div>
     </PodInfoStyles>
   );
 };
