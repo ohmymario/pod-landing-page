@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import desktop from "../../assets/desktop/image-host.jpg";
+import dots from "../../assets/desktop/bg-pattern-dots.svg";
 
 const AppStyles = styled.div`
   max-width: 1440px;
@@ -28,6 +29,13 @@ const AppStyles = styled.div`
     background-repeat: no-repeat;
   }
   &:after {
+    content: url(${dots});
+    position: absolute;
+    z-index: -1;
+    right: 0;
+
+    /* half the size of the dots */
+    bottom: -52px;
   }
 `;
 
