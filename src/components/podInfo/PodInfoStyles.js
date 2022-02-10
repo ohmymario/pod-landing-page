@@ -2,8 +2,6 @@ import styled from "styled-components";
 
 const PodInfoStyles = styled.main`
   background-color: var(--bg);
-  /* TEMP - BG MATCHES PAGE BG */
-  background-color: var(--paragraph);
   max-width: 723px;
   padding-top: 88px;
   padding-right: 58px;
@@ -25,6 +23,7 @@ const PodInfoStyles = styled.main`
     font-size: 1.125rem;
     width: 66%;
     margin-bottom: 40px;
+    line-height: 28px;
   }
 `;
 
