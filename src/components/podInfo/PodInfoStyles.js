@@ -4,7 +4,6 @@ const PodInfoStyles = styled.main`
   background-color: var(--bg);
   max-width: 723px;
   padding-top: 88px;
-  padding-right: 58px;
   font-weight: 300;
   h1 {
     font-size: 3.25rem;
@@ -16,14 +15,24 @@ const PodInfoStyles = styled.main`
     span {
       color: var(--header-secondary);
     }
+    @media (max-width: 1024px) {
+      font-size: 3rem;
+      margin-bottom: 31px;
+      line-height: 56px;
+    }
   }
 
   p {
     color: var(--paragraph);
     font-size: 1.125rem;
-    width: 66%;
-    margin-bottom: 40px;
+    max-width: 445px;
+    margin-bottom: 41px;
     line-height: 28px;
+  }
+
+  @media (max-width: 1024px) {
+    padding-top: 93px;
+    max-width: 635px;
   }
 `;
 
