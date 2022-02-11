@@ -5,6 +5,10 @@ const LogoStyles = styled.header`
   img {
     display: block;
   }
+
+  @media (max-width: 1024px) {
+    margin-bottom: 152px;
+  }
 `;
 
 export default LogoStyles;
