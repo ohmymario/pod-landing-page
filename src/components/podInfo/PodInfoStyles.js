@@ -34,6 +34,10 @@ const PodInfoStyles = styled.main`
     padding-top: 93px;
     max-width: 635px;
   }
+
+  @media (max-width: 620px) {
+    padding-top: 62px;
+  }
 `;
 
 export default PodInfoStyles;

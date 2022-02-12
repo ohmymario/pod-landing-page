@@ -9,6 +9,12 @@ const LogoStyles = styled.header`
   @media (max-width: 1024px) {
     margin-bottom: 152px;
   }
+
+  @media (max-width: 1024px) {
+    /* margin-bottom: 152px; */
+  }
 `;
+
+// 620
 
 export default LogoStyles;
