@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import desktop from "../../assets/desktop/image-host.jpg";
 import tablet from "../../assets/tablet/image-host.jpg";
+import mobile from "../../assets/mobile/image-host.jpg";
 import dots from "../../assets/desktop/bg-pattern-dots.svg";
 
 const AppStyles = styled.div`
@@ -34,7 +35,16 @@ const AppStyles = styled.div`
       height: 100%;
       top: 0;
     }
+
+    @media (max-width: 620px) {
+      background-image: url(${mobile});
+      height: 100vh;
+      width: 100%;
+      background-size: cover;
+      opacity: 0.1;
+    }
   }
+
   &:after {
     content: url(${dots});
     position: absolute;
@@ -48,6 +58,10 @@ const AppStyles = styled.div`
       left: 30px;
       bottom: 0;
     }
+
+    @media (max-width: 620px) {
+      display: none;
+    }
   }
 
   @media (max-width: 1440px) {
@@ -58,6 +72,11 @@ const AppStyles = styled.div`
   @media (max-width: 1000px) {
     margin: 0 0 0 40px;
     padding-top: 50px;
+  }
+
+  /* // TODO: STILL NEEDS TESTING */
+  @media (max-width: 620px) {
+    margin: 0 20px;
   }
 `;
 
