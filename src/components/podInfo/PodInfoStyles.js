@@ -36,7 +36,24 @@ const PodInfoStyles = styled.main`
   }
 
   @media (max-width: 620px) {
-    padding-top: 62px;
+    padding-top: 57px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    background: none;
+
+    .form-comp {
+      /* border: 1px solid red; */
+      display: grid;
+      gap: 48px;
+
+      > *:first-child {
+        order: 1;
+      }
+    }
   }
 `;
 
