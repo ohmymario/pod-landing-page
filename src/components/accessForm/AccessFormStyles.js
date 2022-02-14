@@ -59,6 +59,10 @@ const AccessFormStyles = styled.form`
       margin: 0;
     }
   }
+
+  @media (max-width: 620px) {
+    max-width: initial;
+  }
 `;
 
 export default AccessFormStyles;
