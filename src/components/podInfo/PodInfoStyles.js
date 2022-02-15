@@ -20,6 +20,11 @@ const PodInfoStyles = styled.main`
       margin-bottom: 31px;
       line-height: 56px;
     }
+    @media (max-width: 550px) {
+      font-size: 1.625rem;
+      line-height: 38px;
+      margin-bottom: 16px;
+    }
   }
 
   p {
@@ -28,6 +33,12 @@ const PodInfoStyles = styled.main`
     max-width: 445px;
     margin-bottom: 41px;
     line-height: 28px;
+
+    @media (max-width: 550px) {
+      font-size: 0.9375rem;
+      line-height: 25px;
+      margin-bottom: 33px;
+    }
   }
 
   @media (max-width: 1024px) {
@@ -46,14 +57,18 @@ const PodInfoStyles = styled.main`
     background: none;
 
     .form-comp {
-      /* border: 1px solid red; */
       display: grid;
       gap: 48px;
+      width: 100%;
 
       > *:first-child {
         order: 1;
       }
     }
+  }
+
+  @media (max-width: 550px) {
+    padding: 57px 24px 0px 24px;
   }
 `;
 
