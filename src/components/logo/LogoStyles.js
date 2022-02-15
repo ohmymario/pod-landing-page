@@ -13,6 +13,13 @@ const LogoStyles = styled.header`
   @media (max-width: 620px) {
     margin-bottom: 50px;
   }
+
+  @media (max-width: 550px) {
+    margin-bottom: 0;
+    img {
+      margin: 0 auto;
+    }
+  }
 `;
 
 export default LogoStyles;
