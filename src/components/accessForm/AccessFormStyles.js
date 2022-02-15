@@ -5,13 +5,7 @@ const AccessFormStyles = styled.form`
   grid-template-columns: 1fr max-content;
   grid-template-rows: 3.5rem;
   max-width: 427px;
-
   margin-bottom: 64px;
-
-  @media only screen and (max-width: 600px) {
-    grid-row-gap: 16px;
-    width: 100%;
-  }
 
   input,
   button {
@@ -53,15 +47,19 @@ const AccessFormStyles = styled.form`
       background-color: #b3ffe2;
     }
 
-    @media only screen and (max-width: 600px) {
+    @media (max-width: 620px) {
       grid-column: initial;
       grid-row: initial;
       margin: 0;
+      padding: 15px 27px;
     }
   }
 
   @media (max-width: 620px) {
     max-width: initial;
+    grid-template-rows: 2.875rem;
+    row-gap: 16px;
+    width: 100%;
   }
 `;
 
