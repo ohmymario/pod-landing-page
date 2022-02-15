@@ -78,6 +78,11 @@ const AppStyles = styled.div`
   @media (max-width: 620px) {
     margin: 0 20px;
   }
+
+  @media (max-width: 550px) {
+    margin: 0;
+    padding-top: 62px;
+  }
 `;
 
 export default AppStyles;
