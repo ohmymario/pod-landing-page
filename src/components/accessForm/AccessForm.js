@@ -19,17 +19,18 @@ const AccessForm = () => {
       /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
 
     if (email === "") {
-      console.log("Oops! Please add your email");
       setError("Oops! Please add your email");
+      return;
     }
 
     if (checker.test(email) === false) {
-      console.log("Oops! Please check your email");
       setError("Oops! Please check your email");
+      return;
     }
 
     if (checker.test(email) === true) {
-      // not really gonna put anything here
+      setError(null);
+      return;
     }
 
     setEmail("");
