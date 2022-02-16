@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 const AccessFormStyles = styled.form`
+  position: relative;
   display: grid;
   grid-template-columns: 1fr max-content;
   grid-template-rows: 3.5rem;
@@ -55,8 +56,20 @@ const AccessFormStyles = styled.form`
     }
   }
 
+  .error-message {
+    position: absolute;
+    color: #fb3e3e;
+    font-size: 12px;
+    line-height: 14px;
+    margin-bottom: 0;
+
+    bottom: -24px;
+    left: 32px;
+  }
+
   @media (max-width: 620px) {
     max-width: initial;
+    grid-template-columns: initial;
     grid-template-rows: 2.875rem;
     row-gap: 16px;
     width: 100%;
