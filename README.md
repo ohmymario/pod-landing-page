@@ -1,15 +1,14 @@
-# Getting Started with Create React App
+# Pod Landing Page
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Made with React! This is a Request Access Landing Page using a professional design from Frontend Mentor. The design is provided in Figma and is recreated to be pixel-perfect.
 
-## Available Scripts
+**Link to project:** https://zealous-swanson-1dc158.netlify.app/
 
-In the project directory, you can run:
+![Landing page image](demo/Access-Landing-Page.png)
 
-### `npm start`
+## How It's Made:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+**Tech used:** React, Styled-Components, JavaScript, Flexbox / Grid
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
