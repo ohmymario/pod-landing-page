@@ -6,64 +6,37 @@ Made with React! This is a Request Access Landing Page using a professional desi
 
 ![Landing page image](demo/Access-Landing-Page.png)
 
+## Figma Design by Frontend Mentor:
+
+![Landing page in Figma](demo/Figma-Page-Design.png)
+
 ## How It's Made:
 
 **Tech used:** React, Styled-Components, JavaScript, Flexbox / Grid
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+I used React for this entire site, and though it may seem overkill, I intended it to be one component that I could add to any future site of my choosing. Again using styled components as I am currently enjoying working with it. I have a Global Styles file that contains colors or font sizing that made multiple appearances in my code to make this component flexible. If I want to adopt this component to a new site, I now have to make minimal code edits to change the look of everything.
 
-### `npm test`
+The form is custom and created with CSS Grid. All of that code can be found in AccessFormStyles.js and took a lot of tweaking to get it working with both desktop and mobile views.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The landing page is fully responsive while remaining true to the original Figma design.
 
-### `npm run build`
+## Optimizations
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+I am happy with how the site came out, though I would use more vertical space if I were to improve the design. If visiting the site from a tablet, much of the content is crammed toward the top. I am capable of creating this though the point is to **recreate** the design.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Some other improvements would be animations, which would bring the landing page to life. Perhaps even a mouse move parallax tied to the dot pattern. Here is an example on CodePen of what I am talking about
+**credit to oscicen** https://codepen.io/oscicen/pen/zyJeJw
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Lessons Learned:
 
-### `npm run eject`
+This exercise allowed me to practice moving images around using CSS while not just breaking everything around it. During each major media query, I went back and took great care to make sure the image looked good and performed well. What probably seemed to take the longest was creating the custom email input form. I intended for the code to stay readable and scale if I wanted to use the form in a different project.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Examples:
+Take a look at these couple examples that I have in my own portfolio:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<!-- MODIFY THESE -->
+**Pizza Site:** https://github.com/ohmymario/pizza-site
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+**Coffee Roasters:** https://github.com/ohmymario/coffee-roasters
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Color Palette:** https://github.com/ohmymario/Color-Palette
